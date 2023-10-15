@@ -1,0 +1,178 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <ItemGroup>
+        <ProjectReference Include="..\..\NexusMods.App.UI\NexusMods.App.UI.csproj"/>
+        <InternalsVisibleTo Include="NexusMods.Games.AdvancedInstaller.UI.Tests"/>
+        <ProjectReference Include="..\NexusMods.Games.AdvancedInstaller\NexusMods.Games.AdvancedInstaller.csproj"/>
+        <ProjectReference Include="..\NexusMods.Games.FOMOD.UI\NexusMods.Games.FOMOD.UI.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Avalonia.Controls.TreeDataGrid"/>
+        <PackageReference Include="ReactiveUI.Fody"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Compile Update="Resources\Language.Designer.cs">
+            <DesignTime>True</DesignTime>
+            <AutoGen>True</AutoGen>
+            <DependentUpon>Language.resx</DependentUpon>
+        </Compile>
+
+        <EmbeddedResource Update="Resources\Language.resx">
+            <Generator>PublicResXFileCodeGenerator</Generator>
+            <LastGenOutput>Language.Designer.cs</LastGenOutput>
+        </EmbeddedResource>
+
+
+        <Compile Update="Footer\AdvancedInstallerFooterViewModel.cs">
+            <DependentUpon>IAdvancedInstallerFooterViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Footer\AdvancedInstallerFooterDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerFooterViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="ModContentSection\AdvancedInstallerModContentViewModel.cs">
+            <DependentUpon>IAdvancedInstallerModContentViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="ModContentSection\AdvancedInstallerModContentDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerModContentViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Overlay\AdvancedInstallerOverlayViewModel.cs">
+            <DependentUpon>IAdvancedInstallerOverlayViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Overlay\AdvancedInstallerOverlayDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerOverlayViewModel.cs</DependentUpon>
+        </Compile>
+
+
+        <Compile Update="SuggestedEntry\AdvancedInstallerSuggestedEntryViewModel.cs">
+            <DependentUpon>IAdvancedInstallerSuggestedEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="SuggestedEntry\AdvancedInstallerSuggestedEntryDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerSuggestedEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Overlay\UnsupportedModOverlayViewModel.cs">
+            <DependentUpon>IUnsupportedModOverlayViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Overlay\UnsupportedModOverlayDesignViewModel.cs">
+            <DependentUpon>IUnsupportedModOverlayViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="ResultsSection\EmptyPreview\AdvancedInstallerEmptyPreviewView.axaml.cs">
+            <DependentUpon>AdvancedInstallerEmptyPreviewView.axaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+
+        <Compile Update="ResultsSection\EmptyPreview\AdvancedInstallerEmptyPreviewDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerEmptyPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="ResultsSection\EmptyPreview\AdvancedInstallerEmptyPreviewViewModel.cs">
+            <DependentUpon>IAdvancedInstallerEmptyPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+
+        <Compile Update="ModContentSection\ModContentEntry\AdvancedInstallerModContentEntryDesignViewModel.cs">
+            <DependentUpon>IAdvancedInstallerModContentEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="ModContentSection\ModContentEntry\AdvancedInstallerModContentEntryViewModel.cs">
+            <DependentUpon>IAdvancedInstallerModContentEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Left\ModContent\ModContentDesignViewModel.cs">
+            <DependentUpon>IModContentViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Left\ModContent\ModContentViewModel.cs">
+            <DependentUpon>IModContentViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Bottom\Footer\FooterDesignViewModel.cs">
+            <DependentUpon>IFooterViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Bottom\Footer\FooterViewModel.cs">
+            <DependentUpon>IFooterViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\PreviewView\PreviewDesignViewModel.cs">
+            <DependentUpon>IPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\PreviewView\PreviewViewModel.cs">
+            <DependentUpon>IPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\EmptyPreview\EmptyPreviewViewModel.cs">
+            <DependentUpon>IEmptyPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\EmptyPreview\EmptyPreviewDesignViewModel.cs">
+            <DependentUpon>IEmptyPreviewViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\SelectLocation\SelectLocationViewModel.cs">
+            <DependentUpon>ISelectLocationViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\SelectLocation\SelectLocationDesignViewModel.cs">
+            <DependentUpon>ISelectLocationViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\BodyView.axaml.cs">
+            <DependentUpon>AdvancedInstallerBodyView.axaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+
+        <Compile Update="Content\BodyViewModel.cs">
+            <DependentUpon>IBodyViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\BodyDesignViewModel.cs">
+            <DependentUpon>IBodyViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\SelectLocation\SuggestedEntry\SuggestedEntryDesignViewModel.cs">
+            <DependentUpon>ISuggestedEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\SelectLocation\SuggestedEntry\SuggestedEntryViewModel.cs">
+            <DependentUpon>ISuggestedEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="TreeEntry\TreeEntryView.axaml.cs">
+            <DependentUpon>ModContentEntryView.axaml</DependentUpon>
+            <SubType>Code</SubType>
+        </Compile>
+
+        <Compile Update="TreeEntry\TreeEntryDesignViewModel.cs">
+          <DependentUpon>ITreeEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="TreeEntry\TreeEntryViewModel.cs">
+          <DependentUpon>ITreeEntryViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\PreviewView\LocationPreviewTreeDesignViewModel.cs">
+          <DependentUpon>ILocationPreviewTreeViewModel.cs</DependentUpon>
+        </Compile>
+
+        <Compile Update="Content\Right\Results\PreviewView\LocationPreviewTreeViewModel.cs">
+          <DependentUpon>ILocationPreviewTreeViewModel.cs</DependentUpon>
+        </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Folder Include="Content\Bottom\"/>
+        <Folder Include="Content\Left\"/>
+        <Folder Include="Content\Right\Results\"/>
+    </ItemGroup>
+</Project>
