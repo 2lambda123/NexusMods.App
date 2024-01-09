@@ -1,0 +1,385 @@
+repo_name: 2lambda123/NexusMods.App
+report_id: b24f57cf0b0d8e3f0ff250ca2619cc80
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T08:01:21+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 29
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  detection_source: tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  last_updated_by: dependabot[bot]
+  last_updated_on: 2023-12-18 09:30:37.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Games/NexusMods.Games.AdvancedInstaller/NexusMods.Games.AdvancedInstaller.csproj
+  detection_source: src/Games/NexusMods.Games.AdvancedInstaller/NexusMods.Games.AdvancedInstaller.csproj
+  last_updated_by: sewer56
+  last_updated_on: 2023-09-19 16:54:46.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '7.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Games/NexusMods.Games.AdvancedInstaller/NexusMods.Games.AdvancedInstaller.csproj
+  detection_source: src/Games/NexusMods.Games.AdvancedInstaller/NexusMods.Games.AdvancedInstaller.csproj
+  last_updated_by: sewer56
+  last_updated_on: 2023-09-19 16:54:46.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/.github/workflows/build-linux-pupnet.yaml
+  detection_source: ".github/workflows/build-linux-pupnet.yaml"
+  last_updated_by: erri120
+  last_updated_on: 2023-07-27 20:21:48.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  detection_source: tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  last_updated_by: sewer56
+  last_updated_on: 2023-09-19 16:54:46.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/NexusMods.App.sln
+  detection_source: NexusMods.App.sln
+  last_updated_by: TanninOne
+  last_updated_on: 2023-02-11 03:56:45.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.2
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  detection_source: tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  last_updated_by: sewer56
+  last_updated_on: 2023-09-19 16:54:46.000000000 Z
+- name: JSON Web Token
+  description: A JSON-based open standard for creating access tokens
+  website_url: http://jwt.io/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/6417/jwt-icon.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Networking/NexusMods.Networking.NexusWebApi.NMA/NexusMods.Networking.NexusWebApi.NMA.csproj
+  detection_source: src/Networking/NexusMods.Networking.NexusWebApi.NMA/NexusMods.Networking.NexusWebApi.NMA.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: NLog
+  description: Flexible &amp; free open-source logging for .NET
+  website_url: https://nlog-project.org/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9672/nlog_logo_square_normal.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App/NexusMods.App.csproj
+  detection_source: src/NexusMods.App/NexusMods.App.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: PowerShell
+  description: A task automation and configuration management framework
+  website_url: https://docs.microsoft.com/en-us/powershell/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/3681/powershell-logo.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App
+  detection_source: Repo Metadata
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App
+  detection_source: Repo Metadata
+- name: Avalonia
+  description: Avalonia is a WPF/UWP-inspired cross-platform XAML-based UI framework
+    providing a flexible styling system and supporting a wide range of Operating Systems
+    such as Windows
+  package_url: https://www.nuget.org/Avalonia
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13493/default_a5f7e489f1a0992baa6377c8f765ce325404bce2.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  detection_source: src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  last_updated_by: AL
+  last_updated_on: 2023-10-02 08:27:30.000000000 Z
+- name: Avalonia.Desktop
+  description: Avalonia is a WPF/UWP-inspired cross-platform XAML-based UI framework
+    providing a flexible styling system and supporting a wide range of Operating Systems
+    such as Windows
+  package_url: https://www.nuget.org/Avalonia.Desktop
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14720/default_7f6d2c2d8bc459a222d9040213ab156a58e86e29.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  detection_source: src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  last_updated_by: AL
+  last_updated_on: 2023-10-02 08:27:30.000000000 Z
+- name: BenchmarkDotNet
+  description: Powerful .NET library for benchmarking
+  package_url: https://www.nuget.org/BenchmarkDotNet
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/14365/default_90e7ce697521dd13e8eb643d3771c2a0e4e6d561.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/benchmarks/NexusMods.Benchmarks/NexusMods.Benchmarks.csproj
+  detection_source: benchmarks/NexusMods.Benchmarks/NexusMods.Benchmarks.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: DynamicData
+  description: Bring the power of Rx to collections using Dynamic Data
+  package_url: https://www.nuget.org/DynamicData
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/15221/default_29e541be75f868d66d50a01789bf097063dd1bcb.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  detection_source: src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  last_updated_by: AL
+  last_updated_on: 2023-10-02 08:27:30.000000000 Z
+- name: Humanizer
+  description: Humanizer meets all your .NET needs for manipulating and displaying
+    strings
+  package_url: https://www.nuget.org/Humanizer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13308/default_a905ee276a536c55784ed56585a51a44d19b6d5b.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  detection_source: src/NexusMods.App.UI/NexusMods.App.UI.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: Microsoft.Data.Sqlite
+  description: SQLite implementation of the System.Data.Common provider model
+  package_url: https://www.nuget.org/Microsoft.Data.Sqlite
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13157/default_44f069d4a745c5c788fc8fe5128bd24cacde1aff.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  detection_source: src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  last_updated_by: Al
+  last_updated_on: 2023-08-02 19:06:06.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection.Abstractions
+  description: Abstractions for dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection.Abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Networking/NexusMods.Networking.HttpDownloader/NexusMods.Networking.HttpDownloader.csproj
+  detection_source: src/Networking/NexusMods.Networking.HttpDownloader/NexusMods.Networking.HttpDownloader.csproj
+  last_updated_by: Timothy Baldridge
+  last_updated_on: 2023-08-21 14:53:26.000000000 Z
+- name: Microsoft.Extensions.Hosting
+  description: ".NET Core hosting and startup infrastructures for applications"
+  package_url: https://www.nuget.org/Microsoft.Extensions.Hosting
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13013/default_dd10728859f7e363ef13345d855b2daba48cace4.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/benchmarks/NexusMods.Benchmarks/NexusMods.Benchmarks.csproj
+  detection_source: benchmarks/NexusMods.Benchmarks/NexusMods.Benchmarks.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: Microsoft.Extensions.Logging
+  description: Logging infrastructure default implementation for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12854/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  detection_source: src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  last_updated_by: Al
+  last_updated_on: 2023-08-02 19:06:06.000000000 Z
+- name: Microsoft.Extensions.Logging.Abstractions
+  description: Logging abstractions for Microsoft.Extensions.Logging
+  package_url: https://www.nuget.org/Microsoft.Extensions.Logging.Abstractions
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12853/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/ArchiveManagement/NexusMods.FileExtractor/NexusMods.FileExtractor.csproj
+  detection_source: src/ArchiveManagement/NexusMods.FileExtractor/NexusMods.FileExtractor.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: Microsoft.Extensions.ObjectPool
+  description: A simple object pool implementation
+  package_url: https://www.nuget.org/Microsoft.Extensions.ObjectPool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13473/default_3ca56d67680ddea498d0ec1aebced8df5992666c.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  detection_source: src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  last_updated_by: Timothy Baldridge
+  last_updated_on: 2023-09-18 21:27:46.000000000 Z
+- name: Microsoft.IO.RecyclableMemoryStream
+  description: A pooled MemoryStream allocator to decrease GC load and improve performance
+    on highly scalable systems
+  package_url: https://www.nuget.org/Microsoft.IO.RecyclableMemoryStream
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13437/default_1eef7832e807cb1f2ca919f1990fe06dfb2504f3.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  detection_source: src/NexusMods.DataModel/NexusMods.DataModel.csproj
+  last_updated_by: Al
+  last_updated_on: 2023-08-02 19:06:06.000000000 Z
+- name: NLog.Extensions.Logging
+  description: NLog LoggerProvider for Microsoft.Extensions.Logging for logging in
+    .NET Standard libraries and .NET Core applications
+  package_url: https://www.nuget.org/NLog.Extensions.Logging
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13244/default_43ce02ab18bb400d4d6b410ac4dc3a50f87e634a.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/NexusMods.App/NexusMods.App.csproj
+  detection_source: src/NexusMods.App/NexusMods.App.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: System.IdentityModel.Tokens.Jwt
+  description: Includes types that provide support for creating
+  package_url: https://www.nuget.org/System.IdentityModel.Tokens.Jwt
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12920/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Networking/NexusMods.Networking.NexusWebApi.NMA/NexusMods.Networking.NexusWebApi.NMA.csproj
+  detection_source: src/Networking/NexusMods.Networking.NexusWebApi.NMA/NexusMods.Networking.NexusWebApi.NMA.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-09-21 09:24:14.000000000 Z
+- name: xunit.extensibility.core
+  description: Includes xunit.core.dll for extensibility purposes
+  package_url: https://www.nuget.org/xunit.extensibility.core
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13436/default_9b520b7c258654c414831abb72568e430492595c.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/src/Games/NexusMods.Games.TestHarness/NexusMods.Games.TestHarness.csproj
+  detection_source: src/Games/NexusMods.Games.TestHarness/NexusMods.Games.TestHarness.csproj
+  last_updated_by: erri120
+  last_updated_on: 2023-07-24 14:17:15.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.5
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/2lambda123/NexusMods.App/blob/main/tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  detection_source: tests/Games/NexusMods.Games.AdvancedInstaller.Tests/NexusMods.Games.AdvancedInstaller.Tests.csproj
+  last_updated_by: sewer56
+  last_updated_on: 2023-09-19 16:54:46.000000000 Z
